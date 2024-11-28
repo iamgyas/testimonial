@@ -1,0 +1,111 @@
+section.testimonial {
+background: #FFFFFF;
+}
+
+section .inner {
+max-width: 940px;
+margin: 0 auto;
+text-align: center;
+}
+section.testimonial .inner {
+padding-top: 1px;
+text-align: left;
+}
+
+
+section.testimonial #quote-wrapper {
+position: relative;
+min-height: 358px;
+padding-top: 1px;
+}
+
+section.testimonial blockquote {
+	font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: #666;
+font-size: 28px;
+line-height: 1.3em;
+padding-top: 1em;
+padding-left: 2em;
+position: relative;
+z-index: 1;
+margin-bottom: 0.45em;
+}
+q, blockquote {
+quotes: none;
+}
+section.testimonial cite {
+font-size: 18px;
+color: #595756;
+font-weight: bold;
+margin: 1em 0;
+  margin-left: 98px;
+
+}
+#quote-quote a {
+color: #020202;
+text-decoration: none;
+}
+#quote-quote a:hover {
+color: #020202;
+text-decoration: underline;
+}
+
+
+
+section.testimonial blockquote::before {
+content: "“";
+color: #E0DDD7;
+font-family: georgia, serif;
+font-size: 6em;
+position: absolute;
+left: -0.25em;
+top: 0.35em;
+z-index: -10;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 750px){
+  
+section.testimonial #quote-wrapper {
+padding-left: 360px;
+}  
+  
+section.testimonial #quote-wrapper .portrait {
+position: absolute;
+left: 10px;
+bottom: 0;
+}
+  
+}
+
+
+
+@media screen and (max-width: 750px){
+	
+
+section.testimonial .inner {
+padding-left: 0;
+}
+
+section.testimonial .quote {
+max-width: 75%;
+margin: 0 auto;
+margin-bottom: 20px;
+}
+
+section.testimonial .portrait {
+display: block;
+margin: 0 auto;
+max-width: 80%;
+background-size: 100% auto !important;
+background-position: center bottom !important;
+}
+  
+}
